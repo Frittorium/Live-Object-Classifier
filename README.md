@@ -21,21 +21,21 @@ Press **Q** or close the window to exit.
 
 ## Project Structure
 yolo-object-detection-app/
-├── documents/ # SAD and SDP documents
+├── documents/                  # SAD and SDP documents
 ├── src/
-│ ├── init.py
-│ ├── main.py # Application entry point and controller
-│ ├── config.py # Configuration and validation
-│ ├── logger.py # Centralized logging (console + rotating file)
-│ ├── camera.py # Camera abstraction with recovery logic
-│ ├── preprocessing.py # Frame validation and preprocessing
-│ ├── detection.py # Detection data model and validation
-│ ├── detector.py # YOLO model interface (vendor isolation)
-│ ├── renderer.py # Rendering and OpenCV display
-│ └── errors.py # Custom exception types
-├── models/ # Model weights directory
-│ └── yolov8n.pt # Auto-downloaded on first run or place manually
-├── logs/ # Application logs (created at runtime)
+│   ├── __init__.py
+│   ├── main.py                # Application entry point and controller
+│   ├── config.py              # Configuration and validation
+│   ├── logger.py              # Centralized logging (console + rotating file)
+│   ├── camera.py              # Camera abstraction with recovery logic
+│   ├── preprocessing.py       # Frame validation and preprocessing
+│   ├── detection.py           # Detection data model and validation
+│   ├── detector.py            # YOLO model interface (vendor isolation)
+│   ├── renderer.py            # Rendering and OpenCV display
+│   └── errors.py              # Custom exception types
+├── models/                    # Model weights directory
+│   └── yolov8n.pt             # Auto-downloaded on first run or place manually
+├── logs/                      # Application logs (created at runtime)
 ├── .gitignore
 ├── README.md
 └── requirements.txt
