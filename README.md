@@ -20,6 +20,7 @@ Press **Q** or close the window to exit.
 - torch (installed automatically with ultralytics)
 
 ## Project Structure
+```text
 yolo-object-detection-app/
 ├── documents/                  # SAD and SDP documents
 ├── src/
@@ -39,6 +40,7 @@ yolo-object-detection-app/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 
 ## Usage
