@@ -1,0 +1,10 @@
+class ApplicationError(Exception): pass
+class ConfigurationError(ApplicationError): pass
+class CameraError(ApplicationError): pass
+class CameraOpenError(CameraError): pass
+class CameraReadError(CameraError): pass
+class CameraRecoveryError(CameraError): pass
+class ModelError(ApplicationError): pass
+class ModelLoadError(ModelError): pass
+class InferenceError(ModelError): pass
+class RenderingError(ApplicationError): pass
